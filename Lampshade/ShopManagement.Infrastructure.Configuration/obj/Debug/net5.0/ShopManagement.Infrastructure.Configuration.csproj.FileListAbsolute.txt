@@ -21,3 +21,5 @@ C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.Co
 C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.Configuration\obj\Debug\net5.0\ShopManagement.Infrastructure.Configuration.dll
 C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.Configuration\obj\Debug\net5.0\ref\ShopManagement.Infrastructure.Configuration.dll
 C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.Configuration\obj\Debug\net5.0\ShopManagement.Infrastructure.Configuration.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.Configuration\bin\Debug\net5.0\01_LampshadeQuery.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.Configuration\bin\Debug\net5.0\01_LampshadeQuery.pdb
