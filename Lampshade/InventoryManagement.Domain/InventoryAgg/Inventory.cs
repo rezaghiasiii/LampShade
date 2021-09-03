@@ -25,8 +25,8 @@ namespace InventoryManagement.Domain.InventoryAgg
         public long CalculateCurrentCount()
         {
             var plus = Operations.Where(x => x.Operation).Sum(x => x.Count);
-            var mines = Operations.Where(x => !x.Operation).Sum(x => x.Count);
-            return plus - mines;
+            var minus = Operations.Where(x => !x.Operation).Sum(x => x.Count);
+            return plus - minus;
         }
 
         public void Increase(long count , long operationId,string description)

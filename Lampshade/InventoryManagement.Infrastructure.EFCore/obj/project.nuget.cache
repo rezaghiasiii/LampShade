@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "I5zX1wCAhZ1JbmxU0TwGz/eGgmTwIZgN1AH72Yq6XbKepDSGi1NHms0JntOe2N704FWiqRizNwZNNMxXYFhQlg==",
+  "dgSpecHash": "zDDDG8l55pdKo4pYacoK9Fkt6g9cgXoiLtVWxpV0fReMiT73N03ZvG/AD7CFTutTXjrcMXFBiMWRYagAr6p9Sw==",
   "success": true,
   "projectFilePath": "C:\\Users\\rezag\\source\\repos\\LampShade\\Lampshade\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
   "expectedPackageFiles": [

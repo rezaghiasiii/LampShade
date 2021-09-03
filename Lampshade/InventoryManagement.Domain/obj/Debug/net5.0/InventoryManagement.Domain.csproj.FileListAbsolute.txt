@@ -15,3 +15,5 @@ C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Domain\obj\D
 C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.dll
 C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Domain\obj\Debug\net5.0\ref\InventoryManagement.Domain.dll
 C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb

@@ -202,3 +202,11 @@ C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\Inv
 C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Domain.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Create.cshtml.g.cs
+C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Edit.cshtml.g.cs
+C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Index.cshtml.g.cs
+C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Increase.cshtml.g.cs
+C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Reduce.cshtml.g.cs
+C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\OperationLog.cshtml.g.cs
