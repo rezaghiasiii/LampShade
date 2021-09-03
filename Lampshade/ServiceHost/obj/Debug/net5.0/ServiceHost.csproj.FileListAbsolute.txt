@@ -194,3 +194,11 @@ C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\obj\Debug\net5.0\Raz
 C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discount\ColleagueDiscount\Create.cshtml.g.cs
 C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discount\ColleagueDiscount\Edit.cshtml.g.cs
 C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discount\ColleagueDiscount\Index.cshtml.g.cs
+C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Domain.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
