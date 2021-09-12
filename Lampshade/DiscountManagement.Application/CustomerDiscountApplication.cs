@@ -19,7 +19,7 @@ namespace DiscountManagement.Application
         public OperationResult Define(DefineCustomerDiscount command)
         {
             var operation = new OperationResult();
-            if (_customerDiscountRepository.Exists(x => x.ProductId == command.ProductId && x.DiscountRate==command.DiscountRate))
+            if (_customerDiscountRepository.Exists(x => x.ProductId == command.ProductId && x.DiscountRate == command.DiscountRate))
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
 
             var startDate = command.StartDate.ToGeorgianDateTime();
@@ -34,7 +34,7 @@ namespace DiscountManagement.Application
 
         public OperationResult Edit(EditCustomerDiscount command)
         {
-            var operation= new OperationResult();
+            var operation = new OperationResult();
             var customerDiscount = _customerDiscountRepository.Get(command.Id);
             if (customerDiscount == null)
                 return operation.Failed(ApplicationMessages.RecordNotFound);

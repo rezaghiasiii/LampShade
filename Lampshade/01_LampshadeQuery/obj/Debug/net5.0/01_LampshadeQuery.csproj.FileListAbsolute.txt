@@ -19,3 +19,15 @@ C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\obj\Debug\net5
 C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.dll
 C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\obj\Debug\net5.0\ref\01_LampshadeQuery.dll
 C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\InventoryManagement.Domain.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\DiscountManagement.Domain.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\DiscountManagement.Domain.pdb
