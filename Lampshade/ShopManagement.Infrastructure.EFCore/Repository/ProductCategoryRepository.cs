@@ -38,7 +38,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 MetaDescription = x.MetaDescription,
                 Name = x.Name,
                 Slug = x.Slug,
-                Picture = x.Picture,
+                //Picture = x.Picture,
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle
             }).FirstOrDefault(x => x.Id == id);
@@ -57,6 +57,11 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 query = query.Where(x => x.Name.Contains(searchModel.Name));
 
             return query.OrderByDescending(x => x.Id).ToList();
+        }
+
+        public string GetSlugBy(long id)
+        {
+            return _context.ProductCategories.Select(x => new {x.Id, x.Slug}).FirstOrDefault(x => x.Id == id)?.Slug;
         }
     }
 }
