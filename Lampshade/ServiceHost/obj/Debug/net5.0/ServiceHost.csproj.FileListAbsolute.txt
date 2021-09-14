@@ -220,3 +220,5 @@ C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\Mic
 C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\System.IO.Pipelines.dll
 C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\obj\Debug\net5.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Product.cshtml.g.cs
+C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Comments\Index.cshtml.g.cs

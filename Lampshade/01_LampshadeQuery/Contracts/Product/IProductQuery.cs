@@ -6,5 +6,6 @@ namespace _01_LampshadeQuery.Contracts.Product
     {
         List<ProductQueryModel> GetLatestArrivals();
         List<ProductQueryModel> Search(string value);
+        ProductQueryModel GetDetailsBy(string slug);
     }
 }
