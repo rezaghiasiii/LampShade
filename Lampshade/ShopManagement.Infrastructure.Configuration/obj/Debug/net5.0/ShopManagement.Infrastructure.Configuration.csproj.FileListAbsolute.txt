@@ -35,3 +35,9 @@ C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.Co
 C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.Configuration\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.Configuration\bin\Debug\net5.0\DiscountManagement.Domain.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.Configuration\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.Configuration\bin\Debug\net5.0\BlogManagement.Application.Contracts.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.Configuration\bin\Debug\net5.0\BlogManagement.Domain.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.Configuration\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.Configuration\bin\Debug\net5.0\BlogManagement.Application.Contracts.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.Configuration\bin\Debug\net5.0\BlogManagement.Domain.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.Configuration\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.pdb
