@@ -16,6 +16,11 @@ namespace BlogManagement.Infrastructure.EFCore.Repository
             _context = context;
         }
 
+        public string GetSlugBy(long id)
+        {
+            return _context.ArticleCategories.Select(x => new {x.Id, x.Slug}).FirstOrDefault(x => x.Id == id)?.Slug;
+        }
+
         public EditArticleCategory GetDetails(long id)
         {
             return _context.ArticleCategories.Select(x => new EditArticleCategory()
@@ -46,9 +51,18 @@ namespace BlogManagement.Infrastructure.EFCore.Repository
             });
 
             if (!string.IsNullOrWhiteSpace(searchModel.Name))
-                query = query.Where(x => x.Name == searchModel.Name);
+                query = query.Where(x => x.Name.Contains(searchModel.Name));
 
             return query.OrderByDescending(x => x.ShowOrder).ToList();
+        }
+
+        public List<ArticleCategoryViewModel> GetArticleCategories()
+        {
+            return _context.ArticleCategories.Select(x => new ArticleCategoryViewModel()
+            {
+                Id = x.Id,
+                Name = x.Name
+            }).ToList();
         }
     }
 }

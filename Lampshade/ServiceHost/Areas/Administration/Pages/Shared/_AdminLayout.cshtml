@@ -234,13 +234,23 @@
 
     <script src="~/AdminTheme/assets/js/persian-datepicker.min.js"></script>
 
-
-
     <script>
         // ReSharper disable once PossiblyUnassignedProperty
         $('.persianDateInput').persianDatepicker({
             format: 'YYYY/MM/DD',
-            autoClose: true
+            autoClose: true,
+            initialValueType: "persian"
+        });
+    </script>
+
+    <script src='https://cdn.tiny.cloud/1/2caws9h6w20ei9dj5jrtyrslunx14cfikyax9j4yk2eciuee/tinymce/5/tinymce.min.js' referrerpolicy="origin">
+    </script>
+    <script>
+        tinymce.init({
+            selector: '#BodyContent',
+            plugins: 'a11ychecker advcode casechange export formatpainter linkchecker autolink lists checklist media mediaembed pageembed permanentpen powerpaste table advtable tinycomments tinymcespellchecker',
+            toolbar: 'a11ycheck addcomment showcomments casechange checklist code export formatpainter pageembed permanentpen table',
+            toolbar_mode: 'floating'
         });
     </script>
 </body>
