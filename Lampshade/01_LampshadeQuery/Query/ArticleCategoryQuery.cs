@@ -63,7 +63,6 @@ namespace _01_LampshadeQuery.Query
                 PictureAlt = x.PictureAlt,
                 Slug = x.Slug,
                 ArticleCount = x.Articles.Count,
-
             })
                 .ToList();
         }

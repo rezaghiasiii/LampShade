@@ -37,3 +37,9 @@ C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5
 C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\BlogManagement.Application.Contracts.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\BlogManagement.Domain.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Application.Contracts.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Domain.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Domain.pdb

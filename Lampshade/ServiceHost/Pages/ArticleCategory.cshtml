@@ -1,6 +1,9 @@
 ﻿@page
 @model ServiceHost.Pages.ArticleCategoryModel
-@{ ViewData["Title"] = "گروه مقالات";
+@{
+    ViewData["Title"] = Model.ArticleCategory.Name;
+    ViewData["keywords"] = Model.ArticleCategory.Keywords;
+    ViewData["metaDescription"] = Model.ArticleCategory.MetaDescription;
 }
 
 
