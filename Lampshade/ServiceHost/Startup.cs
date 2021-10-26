@@ -1,6 +1,8 @@
+using System.Collections.Generic;
 using System.Text.Encodings.Web;
 using System.Text.Unicode;
 using _0_Framework.Application;
+using _0_Framework.Infrastructure;
 using AccountManagement.Infrastructure.Configuration;
 using BlogManagement.Infrastructure.Configuration;
 using CommentManagement.Infrastructure.Configuration;
@@ -26,24 +28,24 @@ namespace ServiceHost
         }
 
         public IConfiguration Configuration { get; }
-        
+
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddHttpContextAccessor();
 
             var connectionString = Configuration.GetConnectionString("LampshadeDb");
 
-            ShopManagementBootstrapper.Configure(services,connectionString);
+            ShopManagementBootstrapper.Configure(services, connectionString);
 
-            DiscountManagementBootstrapper.Configure(services,connectionString);
+            DiscountManagementBootstrapper.Configure(services, connectionString);
 
-            InventoryManagementBootstrapper.Configure(services,connectionString);
+            InventoryManagementBootstrapper.Configure(services, connectionString);
 
-            BlogManagementBootstrapper.Configure(services,connectionString);
+            BlogManagementBootstrapper.Configure(services, connectionString);
 
-            CommentManagementBootstrapper.Configure(services,connectionString);
+            CommentManagementBootstrapper.Configure(services, connectionString);
 
-            AccountManagementBootstrapper.Configure(services,connectionString);
+            AccountManagementBootstrapper.Configure(services, connectionString);
 
             services.Configure<CookiePolicyOptions>(options =>
             {
@@ -63,9 +65,26 @@ namespace ServiceHost
             services.AddSingleton<IPasswordHasher, PasswordHasher>();
             services.AddTransient<IFileUploader, FileUploader>();
             services.AddTransient<IAuthHelper, AuthHelper>();
-            services.AddRazorPages();
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("AdminArea", builder => builder.RequireRole(new List<string> {Roles.Administrator,Roles.ContentUploader}));
+                options.AddPolicy("Shop", builder => builder.RequireRole(new List<string> { Roles.Administrator }));
+                options.AddPolicy("Discount", builder => builder.RequireRole(new List<string> { Roles.Administrator }));
+                options.AddPolicy("Account", builder => builder.RequireRole(new List<string> { Roles.Administrator }));
+            });
+
+            services.AddRazorPages(options =>
+            {
+                options.Conventions.AuthorizeAreaFolder("Administration", "/", "AdminArea");
+                options.Conventions.AuthorizeAreaFolder("Administration", "/Shop", "Shop");
+                options.Conventions.AuthorizeAreaFolder("Administration", "/Discount", "Discount");
+                options.Conventions.AuthorizeAreaFolder("Administration", "/Account", "Account");
+            });
+
+
         }
-        
+
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())

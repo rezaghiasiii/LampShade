@@ -269,3 +269,4 @@ C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\obj\Debug\net5.0\Raz
 C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Account\Roles\Edit.cshtml.g.cs
 C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Account\Roles\Index.cshtml.g.cs
 C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Account.cshtml.g.cs
+C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\AccessDenied.cshtml.g.cs

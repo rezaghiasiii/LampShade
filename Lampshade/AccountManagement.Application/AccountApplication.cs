@@ -21,13 +21,13 @@ namespace AccountManagement.Application
             _authHelper = authHelper;
         }
 
-        public OperationResult Create(CreateAccount command)
+        public OperationResult Register(RegisterAccount command)
         {
             var operation = new OperationResult();
 
             if (_accountRepository.Exists(x => x.Username == command.Username || x.Mobile == command.Mobile))
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
-            var path = $"profilePhotos";
+            var path = "profilePhotos";
             var picturePath = _fileUploader.Upload(command.ProfilePhoto, path);
             var password = _passwordHasher.Hash(command.Password);
             var account = new Account(command.FullName, command.Username, password, command.Mobile, command.RoleId,
@@ -79,8 +79,8 @@ namespace AccountManagement.Application
             if (account == null)
                 return operation.Failed(ApplicationMessages.WrongUserPass);
 
-            (bool verified, bool needsUpgrade) result = _passwordHasher.Check(account.Password, command.Password);
-            if(result.verified)
+            var result = _passwordHasher.Check(account.Password, command.Password);
+            if(!result.Verified)
                 return operation.Failed(ApplicationMessages.WrongUserPass);
 
             var authViewModel = new AuthViewModel(account.Id,
