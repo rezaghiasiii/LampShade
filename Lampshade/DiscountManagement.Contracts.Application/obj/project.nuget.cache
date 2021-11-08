@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PtENh++HhnSd6FSBoIGzdfiepW7SXEqgaC232EW0AE2GercgDjfUnNndZgdHmvIs9qjapEO8pWDOUHyH4yZHXA==",
+  "dgSpecHash": "TCZWZBYFNECczWo1v8eBVouBiHNTcWzlBQcGisCCxSAUxdVJAUaWrwpeZlaSPq4t7Nwe5sxAzfaZuRcwQ5GE3g==",
   "success": true,
   "projectFilePath": "C:\\Users\\rezag\\source\\repos\\LampShade\\Lampshade\\DiscountManagement.Contracts.Application\\DiscountManagement.Application.Contract.csproj",
   "expectedPackageFiles": [
@@ -39,6 +39,7 @@
     "C:\\Users\\rezag\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\rezag\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\rezag\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "C:\\Users\\rezag\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\rezag\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\rezag\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\rezag\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",

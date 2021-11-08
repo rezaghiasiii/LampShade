@@ -6,7 +6,7 @@ using _0_Framework.Infrastructure;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
-
+using Newtonsoft.Json;
 namespace _0_Framework.Application
 {
     public class AuthHelper : IAuthHelper
@@ -44,18 +44,21 @@ namespace _0_Framework.Application
 
         public bool IsAuthenticated()
         {
-            var claims = _contextAccessor.HttpContext.User.Claims.ToList();
-            return claims.Count > 0;
+            return _contextAccessor.HttpContext.User.Identity.IsAuthenticated;
+            //var claims = _contextAccessor.HttpContext.User.Claims.ToList();
+            //return claims.Count > 0;
         }
 
         public void Signin(AuthViewModel account)
         {
+            var permissions = JsonConvert.SerializeObject(account.Permissions);
             var claims = new List<Claim>
             {
                 new Claim("AccountId", account.Id.ToString()),
                 new Claim(ClaimTypes.Name, account.FullName),
                 new Claim(ClaimTypes.Role, account.RoleId.ToString()),
-                new Claim("Username", account.Username) // Or Use ClaimsTypes.NameIdentifier
+                new Claim("Username", account.Username), // Or Use ClaimsTypes.NameIdentifier
+                new Claim("permissions",permissions)
             };
 
             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
@@ -72,6 +75,15 @@ namespace _0_Framework.Application
         public void SignOut()
         {
             _contextAccessor.HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+        }
+
+        public List<int> GetPermissions()
+        {
+            if (!IsAuthenticated())
+                return new List<int>();
+            var permissions = _contextAccessor.HttpContext.User.Claims.FirstOrDefault(x => x.Type == "permissions")
+                ?.Value;
+            return JsonConvert.DeserializeObject<List<int>>(permissions);
         }
     }
 }

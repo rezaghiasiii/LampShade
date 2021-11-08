@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EZx4pt2EjuEa32Mb/IBz/yOOFurrGbyAaw6Qzy63bru2ue6Nawn+eQiH0JezfV0GXlcB4t3DnQgTEGZlZ47tVA==",
+  "dgSpecHash": "D33BK7mbpOiE18GrRZnMeyA/xr7jrKJtp3JCeAAiQJ+B5LWBBxT63H3DYtoA3LzAlPbgpgySKL8rZmsMS5wajw==",
   "success": true,
   "projectFilePath": "C:\\Users\\rezag\\source\\repos\\LampShade\\Lampshade\\ServiceHost\\ServiceHost.csproj",
   "expectedPackageFiles": [
@@ -73,7 +73,7 @@
     "C:\\Users\\rezag\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\5.0.2\\microsoft.visualstudio.web.codegenerators.mvc.5.0.2.nupkg.sha512",
     "C:\\Users\\rezag\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\rezag\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
-    "C:\\Users\\rezag\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\rezag\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\rezag\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\rezag\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\rezag\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

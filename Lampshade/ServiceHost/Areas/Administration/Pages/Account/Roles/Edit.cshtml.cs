@@ -14,8 +14,7 @@ namespace ServiceHost.Areas.Administration.Pages.Account.Roles
     {
         private readonly IRoleApplication _roleApplication;
         public EditRole Command;
-        public List<SelectListItem> Permissions=
-        new List<SelectListItem>();
+        public List<SelectListItem> Permissions = new List<SelectListItem>();
         private readonly IEnumerable<IPermissionExposer> _exposers;
         public EditModel(IRoleApplication roleApplication, IEnumerable<IPermissionExposer> exposers)
         {
@@ -30,7 +29,7 @@ namespace ServiceHost.Areas.Administration.Pages.Account.Roles
             foreach (var exposer in _exposers)
             {
                 var exposedPermissions = exposer.Expose();
-                foreach (var (key,value) in exposedPermissions)
+                foreach (var (key, value) in exposedPermissions)
                 {
                     permissions.AddRange(value);
                     foreach (var permission in value)
@@ -43,7 +42,7 @@ namespace ServiceHost.Areas.Administration.Pages.Account.Roles
                         {
                             Group = group
                         };
-                        if (Command.MapedPermissions.Any(x=>x.Code==permission.Code))
+                        if (Command.MapedPermissions.Any(x => x.Code == permission.Code))
                         {
                             item.Selected = true;
                         }

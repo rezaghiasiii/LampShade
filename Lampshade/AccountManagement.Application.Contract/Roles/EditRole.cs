@@ -7,5 +7,10 @@ namespace AccountManagement.Application.Contract.Roles
     {
         public long Id { get; set; }
         public List<PermissionDto> MapedPermissions { get; set; }
+
+        public EditRole()
+        {
+            Permissions = new List<int>();
+        }
     }
 }
