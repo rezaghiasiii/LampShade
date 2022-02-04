@@ -8,6 +8,7 @@ using CommentManagement.Infrastructure.EFCore;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryManagement.Infrastructure.EFCore;
 using Microsoft.EntityFrameworkCore;
+using ShopManagement.Application.Contracts.Order;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Infrastructure.EFCore;
 
@@ -125,8 +126,8 @@ namespace _01_LampshadeQuery.Query
 
             var discounts = _discountContext.CustomerDiscounts
                 .Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now)
-                .Select(x => new { x.ProductId, x.DiscountRate ,x.EndDate}).ToList();
-            var product = _context.Products.Include(x => x.Category).Include(x=>x.ProductPictures).Select(x => new ProductQueryModel()
+                .Select(x => new { x.ProductId, x.DiscountRate, x.EndDate }).ToList();
+            var product = _context.Products.Include(x => x.Category).Include(x => x.ProductPictures).Select(x => new ProductQueryModel()
             {
                 Id = x.Id,
                 Name = x.Name,
@@ -153,7 +154,7 @@ namespace _01_LampshadeQuery.Query
                 product.IsInStock = inventoryProduct.InStock;
                 var price = inventoryProduct.UnitPrice;
                 product.Price = price.ToMoney();
-
+                product.DoublePrice = price;
                 var discount = discounts.FirstOrDefault(x => x.ProductId == product.Id);
                 if (discount != null)
                 {
@@ -167,26 +168,38 @@ namespace _01_LampshadeQuery.Query
 
             }
 
-            product.Comments = _commentContext.Comments.Where(x => x.Type== CommentType.Product && x.IsConfirmed && !x.IsCanceled && x.OwnerRecordId==product.Id).Select(x=>new CommentQueryModel()
+            product.Comments = _commentContext.Comments.Where(x => x.Type == CommentType.Product && x.IsConfirmed && !x.IsCanceled && x.OwnerRecordId == product.Id).Select(x => new CommentQueryModel()
             {
                 Id = x.Id,
                 Name = x.Name,
                 Message = x.Message
-            }).OrderByDescending(x=>x.Id).ToList();
+            }).OrderByDescending(x => x.Id).ToList();
 
 
             return product;
+        }
+
+        public List<CartItem> CheckInventoryStatus(List<CartItem> cartItems)
+        {
+            var inventory = _inventoryContext.Inventory.ToList();
+            foreach (var cartItem in cartItems.Where(item => inventory.Any(x => x.ProductId == item.Id && x.InStock)))
+            {
+                var itemInventory = inventory.Find(x => x.ProductId == cartItem.Id);
+                if (itemInventory != null) cartItem.IsInStock = itemInventory.CalculateCurrentCount() >= cartItem.Count;
+            }
+
+            return cartItems;
         }
 
         private static List<ProductPictureQueryModel> MapProductPictures(List<ProductPicture> pictures)
         {
             return pictures.Select(x => new ProductPictureQueryModel()
             {
-               IsRemoved = x.IsRemoved,
-               Picture = x.Picture,
-               PictureAlt = x.PictureAlt,
-               PictureTitle = x.PictureTitle,
-               ProductId = x.ProductId
+                IsRemoved = x.IsRemoved,
+                Picture = x.Picture,
+                PictureAlt = x.PictureAlt,
+                PictureTitle = x.PictureTitle,
+                ProductId = x.ProductId
             }).Where(x => !x.IsRemoved).ToList();
         }
     }

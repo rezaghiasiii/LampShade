@@ -12,9 +12,9 @@
     {
         <title>فروشگاه لوازم دکوری</title>
     }
-    
-    <meta name="keywords" content="@ViewData["keywords"]"/>
-    <meta name="description" content="@ViewData["metaDescription"]"/>
+
+    <meta name="keywords" content="@ViewData["keywords"]" />
+    <meta name="description" content="@ViewData["metaDescription"]" />
 
     <link href="~/Theme/assets/css/vendors.css" rel="stylesheet">
     <link href="~/Theme/assets/css/style.css" rel="stylesheet">
@@ -48,9 +48,18 @@
     <div id="scroll-top">
         <span>برو بالا</span><i class="ion-chevron-right"></i><i class="ion-chevron-right"></i>
     </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/Theme/assets/js/vendors.js"></script>
     <script src="~/Theme/assets/js/active.js"></script>
-
+    <script src="~/Theme/assets/js/plugins.js"></script>
+    <script src="~/Theme/assets/js/custom.js"></script>
+    
+<script>
+    $(document).ready(function() {
+        updateCart();
+    });
+</script>
 </body>
 
 </html>

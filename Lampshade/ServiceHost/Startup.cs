@@ -3,6 +3,8 @@ using System.Text.Encodings.Web;
 using System.Text.Unicode;
 using _0_Framework.Application;
 using _0_Framework.Infrastructure;
+using _01_LampshadeQuery.Contracts;
+using _01_LampshadeQuery.Query;
 using AccountManagement.Infrastructure.Configuration;
 using BlogManagement.Infrastructure.Configuration;
 using CommentManagement.Infrastructure.Configuration;
@@ -46,12 +48,7 @@ namespace ServiceHost
             CommentManagementBootstrapper.Configure(services, connectionString);
 
             AccountManagementBootstrapper.Configure(services, connectionString);
-
-            services.Configure<CookiePolicyOptions>(options =>
-            {
-                options.CheckConsentNeeded = context => true;
-                options.MinimumSameSitePolicy = SameSiteMode.Lax;
-            });
+            
 
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, o =>
@@ -65,7 +62,7 @@ namespace ServiceHost
             services.AddSingleton<IPasswordHasher, PasswordHasher>();
             services.AddTransient<IFileUploader, FileUploader>();
             services.AddTransient<IAuthHelper, AuthHelper>();
-
+            
             services.AddAuthorization(options =>
             {
                 options.AddPolicy("AdminArea", builder => builder.RequireRole(new List<string> {Roles.Administrator,Roles.ContentUploader}));

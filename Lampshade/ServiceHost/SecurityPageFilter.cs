@@ -27,7 +27,7 @@ namespace ServiceHost
                 return;
             var accountPermissions = _authHelper.GetPermissions();
             if (accountPermissions.All(x=>x != handlerPermission.Permission))
-                context.HttpContext.Response.Redirect("/Account");
+                context.HttpContext.Response.Redirect("/AccessDenied");
         }
 
         public void OnPageHandlerExecuted(PageHandlerExecutedContext context)

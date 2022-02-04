@@ -133,20 +133,17 @@
                                                 <a href="#">(نظر @Model.Product.Comments.Count)</a> | <a href="#">نظر خود را بنویسید ...</a>
                                             </span>
                                         </div>
-                                        @if (Model.Product.HasDiscount)
-                                        {
-                                            <p class="single-grid-product__price">
+                                        <p class="single-grid-product__price">
+                                            @if (Model.Product.HasDiscount)
+                                            {
                                                 <span class="discounted-price">@Model.Product.PriceWithDiscount تومان</span>
                                                 <span class="main-price discounted">@Model.Product.Price تومان</span>
-                                            </p>
-                                        }
-                                        else
-                                        {
-                                            <p class="single-grid-product__price">
-                                                <span class="main-price discounted">@Model.Product.Price تومان</span>
-                                            </p>
-                                        }
-
+                                            }
+                                            else
+                                            {
+                                                <span class="main-price">@Model.Product.Price تومان</span>
+                                            }
+                                        </p>
 
                                         <p class="single-info">کد محصول :<span class="value">@Model.Product.Code</span> </p>
                                         <p class="single-info">
@@ -171,11 +168,11 @@
                                         <div class="product-actions">
                                             <div class="quantity-selection">
                                                 <label>تعداد</label>
-                                                <input type="number" value="1" min="1">
+                                                <input type="number" value="1" min="1" id="productCount">
                                             </div>
 
                                             <div class="product-buttons">
-                                                <a class="cart-btn" href="#">
+                                                <a class="cart-btn" onclick="addToCart('@Model.Product.Id','@Model.Product.Name','@Model.Product.DoublePrice','@Model.Product.Picture')">
                                                     <i class="ion-bag"></i>
                                                     افزودن به سبد خرید
                                                 </a>
