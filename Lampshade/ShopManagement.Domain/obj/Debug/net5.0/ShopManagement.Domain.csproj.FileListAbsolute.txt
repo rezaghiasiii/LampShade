@@ -6,7 +6,6 @@ C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Domain\bin\Debug\
 C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
 C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Domain\bin\Debug\net5.0\0_Framework.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
-C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csprojAssemblyReference.cache
 C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.AssemblyInfoInputs.cache
 C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.AssemblyInfo.cs
@@ -15,3 +14,4 @@ C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Domain\obj\Debug\
 C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.dll
 C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ref\ShopManagement.Domain.dll
 C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.AssemblyReference.cache

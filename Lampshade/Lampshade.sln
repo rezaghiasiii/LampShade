@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31205.134
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ShopManagement", "ShopManagement", "{F306BF4F-B4E4-4052-9830-651ED1AC0AB3}"
 EndProject
@@ -116,6 +116,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountManagement.Application", "AccountManagement.Application\AccountManagement.Application.csproj", "{45D3C524-52F8-40BE-8422-8F64C4661BA7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountManagement.Infrastructure.Configuration", "AccountManagement.Infrastructure.Configuration\AccountManagement.Infrastructure.Configuration.csproj", "{1F0006F0-2290-4088-A06D-5802C9F9A4D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopManagement.Infrastructure.InventoryAcl", "ShopManagement.Infrastructure.InventoryAcl\ShopManagement.Infrastructure.InventoryAcl.csproj", "{FFC840F5-2B37-4381-86DB-C5006C07E80F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -255,6 +257,10 @@ Global
 		{1F0006F0-2290-4088-A06D-5802C9F9A4D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F0006F0-2290-4088-A06D-5802C9F9A4D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F0006F0-2290-4088-A06D-5802C9F9A4D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFC840F5-2B37-4381-86DB-C5006C07E80F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC840F5-2B37-4381-86DB-C5006C07E80F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC840F5-2B37-4381-86DB-C5006C07E80F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC840F5-2B37-4381-86DB-C5006C07E80F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -308,6 +314,7 @@ Global
 		{8C638BC1-49B4-4466-9018-46325CB3D17B} = {8AEA21B5-94EC-46A8-8DC1-C85CC95D0233}
 		{45D3C524-52F8-40BE-8422-8F64C4661BA7} = {C4AB1FF3-C80D-4CFC-877F-3FA3F3909309}
 		{1F0006F0-2290-4088-A06D-5802C9F9A4D5} = {8AEA21B5-94EC-46A8-8DC1-C85CC95D0233}
+		{FFC840F5-2B37-4381-86DB-C5006C07E80F} = {D53E55DC-ED55-43A0-836D-FBA7697DEFEA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9F5DD927-1E69-4589-B5CC-999284CBBD0A}

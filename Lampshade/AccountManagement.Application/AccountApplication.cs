@@ -109,6 +109,11 @@ namespace AccountManagement.Application
             return _accountRepository.GetDetails(id);
         }
 
+        public List<AccountViewModel> GetAccounts()
+        {
+            return _accountRepository.GetAccounts();
+        }
+
         public void Logout()
         {
             _authHelper.SignOut();

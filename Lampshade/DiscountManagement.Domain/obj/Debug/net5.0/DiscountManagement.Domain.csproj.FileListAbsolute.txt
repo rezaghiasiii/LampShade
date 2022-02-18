@@ -10,7 +10,6 @@ C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Domain\bin\De
 C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Domain\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Domain\bin\Debug\net5.0\ShopManagement.Domain.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
-C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.csprojAssemblyReference.cache
 C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.AssemblyInfoInputs.cache
 C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.AssemblyInfo.cs
@@ -19,3 +18,4 @@ C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Domain\obj\De
 C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.dll
 C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Domain\obj\Debug\net5.0\ref\DiscountManagement.Domain.dll
 C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.csproj.AssemblyReference.cache

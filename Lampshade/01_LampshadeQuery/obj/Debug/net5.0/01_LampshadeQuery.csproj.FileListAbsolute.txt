@@ -10,7 +10,6 @@ C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5
 C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\0_Framework.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\ShopManagement.Domain.pdb
-C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.csprojAssemblyReference.cache
 C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.AssemblyInfoInputs.cache
 C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.AssemblyInfo.cs
@@ -43,3 +42,10 @@ C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5
 C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Domain.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.csproj.AssemblyReference.cache
+C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\AccountManagement.Application.Contract.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\AccountManagement.Domain.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\AccountManagement.Application.Contract.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\AccountManagement.Domain.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.pdb

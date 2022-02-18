@@ -16,7 +16,6 @@ C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructur
 C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.EFCore\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Domain.pdb
-C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.csprojAssemblyReference.cache
 C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
 C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.AssemblyInfo.cs
@@ -26,3 +25,10 @@ C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructur
 C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\ref\DiscountManagement.Infrastructure.EFCore.dll
 C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.genruntimeconfig.cache
+C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.csproj.AssemblyReference.cache
+C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Application.Contract.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Domain.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Application.Contract.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Domain.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.pdb

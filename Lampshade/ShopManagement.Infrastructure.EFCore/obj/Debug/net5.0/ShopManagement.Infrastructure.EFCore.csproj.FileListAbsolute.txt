@@ -10,7 +10,6 @@ C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.EF
 C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Domain.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\0_Framework.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
-C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.csprojAssemblyReference.cache
 C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
 C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.AssemblyInfo.cs
@@ -20,3 +19,10 @@ C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.EF
 C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ref\ShopManagement.Infrastructure.EFCore.dll
 C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.genruntimeconfig.cache
+C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.csproj.AssemblyReference.cache
+C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Application.Contract.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Domain.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Application.Contract.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Domain.pdb

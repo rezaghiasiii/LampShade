@@ -16,7 +16,6 @@ C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructu
 C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\ShopManagement.Domain.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.pdb
-C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.csprojAssemblyReference.cache
 C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.AssemblyInfoInputs.cache
 C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.AssemblyInfo.cs
@@ -27,3 +26,10 @@ C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructu
 C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagement.Application.dll
 C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagement.Application.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.csproj.AssemblyReference.cache
+C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Application.Contract.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Domain.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Application.Contract.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Domain.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.pdb

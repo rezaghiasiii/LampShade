@@ -10,5 +10,6 @@ namespace _0_Framework.Application
         void Signin(AuthViewModel account);
         void SignOut();
         List<int> GetPermissions();
+        long CurrentAccountId();
     }
 }

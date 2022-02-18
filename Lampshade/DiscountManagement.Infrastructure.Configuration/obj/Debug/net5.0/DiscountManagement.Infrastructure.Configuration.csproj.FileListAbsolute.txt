@@ -18,7 +18,6 @@ C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructur
 C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.Configuration\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.Configuration\bin\Debug\net5.0\ShopManagement.Domain.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.Configuration\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.pdb
-C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.Configuration\obj\Debug\net5.0\DiscountManagement.Infrastructure.Configuration.csprojAssemblyReference.cache
 C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.Configuration\obj\Debug\net5.0\DiscountManagement.Infrastructure.Configuration.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.Configuration\obj\Debug\net5.0\DiscountManagement.Infrastructure.Configuration.AssemblyInfoInputs.cache
 C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.Configuration\obj\Debug\net5.0\DiscountManagement.Infrastructure.Configuration.AssemblyInfo.cs
@@ -27,3 +26,10 @@ C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructur
 C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.Configuration\obj\Debug\net5.0\DiscountManagement.Infrastructure.Configuration.dll
 C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.Configuration\obj\Debug\net5.0\ref\DiscountManagement.Infrastructure.Configuration.dll
 C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.Configuration\obj\Debug\net5.0\DiscountManagement.Infrastructure.Configuration.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.Configuration\obj\Debug\net5.0\DiscountManagement.Infrastructure.Configuration.csproj.AssemblyReference.cache
+C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Application.Contract.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Domain.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Application.Contract.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Domain.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\DiscountManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.pdb

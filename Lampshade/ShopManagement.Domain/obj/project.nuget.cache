@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ym1E1hRZt3sqbmLZMVZNh7aIaC/vTT94Y2vkjN4MgWLfYIJGCJzGdLHFSewt7GGEUfxQfyMLth0G+Jih/yvpWg==",
+  "dgSpecHash": "41XZccKyeJ1cUgMfCRcq97z80LkAXWDmvKvUTomcO/1Khi2/J4piSgSYi9ScQQ2Wo/8nW4TIy4TrSz/9WmB7hw==",
   "success": true,
   "projectFilePath": "C:\\Users\\rezag\\source\\repos\\LampShade\\Lampshade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
   "expectedPackageFiles": [
@@ -40,6 +40,7 @@
     "C:\\Users\\rezag\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\rezag\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\rezag\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\rezag\\.nuget\\packages\\restsharp\\106.10.0\\restsharp.106.10.0.nupkg.sha512",
     "C:\\Users\\rezag\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\rezag\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\rezag\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",

@@ -16,7 +16,6 @@ C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructu
 C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Domain.pdb
-C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.csprojAssemblyReference.cache
 C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
 C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.AssemblyInfo.cs
@@ -26,3 +25,10 @@ C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructu
 C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\ref\InventoryManagement.Infrastructure.EFCore.dll
 C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.genruntimeconfig.cache
+C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.csproj.AssemblyReference.cache
+C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Application.Contract.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Domain.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Application.Contract.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Domain.pdb

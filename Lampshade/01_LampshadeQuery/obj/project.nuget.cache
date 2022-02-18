@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "te8x8+kkLgmecTfbJtSb/DenNU73FG9lHsSG0SIFk6Xg2yPxAq1EYiu+USHnKe+uQRAsU43ixJvr2AGgY7PAGA==",
+  "dgSpecHash": "rnR+9pAf6hPRrlVsQPajsCs3fMQYNPkH7rsVjQMnMGd27C4vPu2MUSCigT3Sqs+enExHZqEYU40ilKmIlMgUSA==",
   "success": true,
   "projectFilePath": "C:\\Users\\rezag\\source\\repos\\LampShade\\Lampshade\\01_LampshadeQuery\\01_LampshadeQuery.csproj",
   "expectedPackageFiles": [
@@ -53,6 +53,7 @@
     "C:\\Users\\rezag\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\rezag\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\rezag\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\rezag\\.nuget\\packages\\restsharp\\106.10.0\\restsharp.106.10.0.nupkg.sha512",
     "C:\\Users\\rezag\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\rezag\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\rezag\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
