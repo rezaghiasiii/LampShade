@@ -11,6 +11,7 @@ using BlogManagement.Infrastructure.Configuration;
 using CommentManagement.Infrastructure.Configuration;
 using DiscountManagement.Infrastructure.Configuration;
 using InventoryManagement.Infrastructure.Configuration;
+using InventoryManagement.Presentation.Api;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -20,6 +21,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ShopManagement.Infrastructure.Configuration;
+using ShopManagement.Presentation.Api;
 
 namespace ServiceHost
 {
@@ -81,7 +83,8 @@ namespace ServiceHost
                 options.Conventions.AuthorizeAreaFolder("Administration", "/Shop", "Shop");
                 options.Conventions.AuthorizeAreaFolder("Administration", "/Discount", "Discount");
                 options.Conventions.AuthorizeAreaFolder("Administration", "/Account", "Account");
-            });
+            }).AddApplicationPart(typeof(ProductController).Assembly)
+                .AddApplicationPart(typeof(InventoryController).Assembly);
 
 
         }
@@ -113,6 +116,7 @@ namespace ServiceHost
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+                endpoints.MapControllers();
                 endpoints.MapDefaultControllerRoute();
             });
         }
