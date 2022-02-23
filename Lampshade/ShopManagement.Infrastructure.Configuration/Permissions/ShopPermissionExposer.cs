@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using _0_Framework.Infrastructure;
 
-namespace ShopManagement.Infrastructure.Configuration.Permissions
+namespace ShopManagement.Configuration.Permissions
 {
     public class ShopPermissionExposer : IPermissionExposer
     {

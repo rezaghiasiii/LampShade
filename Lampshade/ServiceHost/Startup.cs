@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Text.Encodings.Web;
 using System.Text.Unicode;
 using _0_Framework.Application;
+using _0_Framework.Application.Sms;
 using _0_Framework.Application.ZarinPal;
 using _0_Framework.Infrastructure;
 using _01_LampshadeQuery.Contracts;
@@ -20,7 +21,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using ShopManagement.Infrastructure.Configuration;
+using ShopManagement.Configuration;
 using ShopManagement.Presentation.Api;
 
 namespace ServiceHost
@@ -66,7 +67,8 @@ namespace ServiceHost
             services.AddTransient<IFileUploader, FileUploader>();
             services.AddTransient<IAuthHelper, AuthHelper>();
             services.AddTransient<IZarinPalFactory, ZarinPalFactory>();
-            
+            services.AddTransient<ISmsService, SmsService>();
+
             services.AddAuthorization(options =>
             {
                 options.AddPolicy("AdminArea", builder => builder.RequireRole(new List<string> {Roles.Administrator,Roles.ContentUploader}));
@@ -74,6 +76,11 @@ namespace ServiceHost
                 options.AddPolicy("Discount", builder => builder.RequireRole(new List<string> { Roles.Administrator }));
                 options.AddPolicy("Account", builder => builder.RequireRole(new List<string> { Roles.Administrator }));
             });
+
+            services.AddCors(options =>
+                options.AddPolicy("MyPolicy", builder => builder.WithOrigins("https://localhost:5002")
+                    .AllowAnyHeader()
+                    .AllowAnyMethod()));
 
             services.AddRazorPages()
                 .AddMvcOptions(options =>options.Filters.Add<SecurityPageFilter>())
@@ -112,6 +119,8 @@ namespace ServiceHost
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseCors("MyPolicy");
 
             app.UseEndpoints(endpoints =>
             {

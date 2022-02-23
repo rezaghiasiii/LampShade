@@ -43,9 +43,7 @@ C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\0_F
 C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
 C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\ShopManagement.Application.dll
 C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\ShopManagement.Domain.dll
-C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\ShopManagement.Infrastructure.Configuration.dll
 C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.dll
-C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\ShopManagement.Infrastructure.Configuration.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\0_Framework.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\ShopManagement.Application.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
@@ -291,3 +289,8 @@ C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\Inv
 C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\ShopManagement.Presentation.Api.dll
 C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Presentation.Api.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\ShopManagement.Presentation.Api.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\Kavenegar.Core.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\ShopManagement.Configuration.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\ShopManagement.Infrastructure.AccountAcl.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\ShopManagement.Configuration.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\ShopManagement.Infrastructure.AccountAcl.pdb

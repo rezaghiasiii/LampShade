@@ -1,4 +1,4 @@
-﻿namespace ShopManagement.Infrastructure.Configuration.Permissions
+﻿namespace ShopManagement.Configuration.Permissions
 {
     public class ShopPermissions
     {

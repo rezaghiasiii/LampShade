@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "0_Framework/1.0.0": {
         "dependencies": {
+          "KavenegarDotNetCore": "1.0.3",
           "Microsoft.AspNetCore.Authentication.Cookies": "2.2.0",
           "Microsoft.AspNetCore.Http.Features": "5.0.9",
           "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
@@ -17,6 +18,17 @@
         },
         "runtime": {
           "0_Framework.dll": {}
+        }
+      },
+      "KavenegarDotNetCore/1.0.3": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Kavenegar.Core.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
         }
       },
       "Microsoft.AspNetCore.Authentication/2.2.0": {
@@ -508,6 +520,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "KavenegarDotNetCore/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-y8FdW8QOM1gRr3iQgcQPU6pm0BM1VY3YM+FnbIIPKiFWTBYyHXAi/FPxkHQJXrjt2YLt6xLkwUFHGE2jIeZgaA==",
+      "path": "kavenegardotnetcore/1.0.3",
+      "hashPath": "kavenegardotnetcore.1.0.3.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication/2.2.0": {
       "type": "package",
