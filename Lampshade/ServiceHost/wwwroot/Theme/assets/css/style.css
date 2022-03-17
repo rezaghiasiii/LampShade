@@ -381,17 +381,21 @@ select {
         flex-basis: 33.33%;
     }
 
-    .header-area--multi-row .header-wrapper .logo {
+    .header-area--multi-row .header-wrapper .logo img {
         -webkit-flex-basis: 33.33%;
         -ms-flex-preferred-size: 33.33%;
-        flex-basis: 33.33%;
-    }
+        flex-basis: 5%;
 
-    .header-area--multi-row .header-wrapper .header-icon-wrapper {
-        -webkit-flex-basis: 33.33%;
-        -ms-flex-preferred-size: 33.33%;
-        flex-basis: 33.33%;
     }
+.logo img {
+    max-width: 30%;
+    height: auto;
+}
+.header-area--multi-row .header-wrapper .header-icon-wrapper {
+    -webkit-flex-basis: 33.33%;
+    -ms-flex-preferred-size: 33.33%;
+    flex-basis: 33.33%;
+}
 
     .header-area--multi-row .header-wrapper .navigation-menu-wrapper {
         -webkit-flex-basis: 100%;

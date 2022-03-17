@@ -294,3 +294,7 @@ C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\Sho
 C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\ShopManagement.Infrastructure.AccountAcl.dll
 C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\ShopManagement.Configuration.pdb
 C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\ShopManagement.Infrastructure.AccountAcl.pdb
+C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\MailKit.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\MimeKit.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\rezag\source\repos\LampShade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\ContactUs.cshtml.g.cs
